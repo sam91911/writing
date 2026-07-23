@@ -36,6 +36,8 @@ $\vdash$ 就是知道所有左側的東西是對的情形下，右側的東西�
 
     $(P \implies Q)$
 
+4. 以上規則生成的東西，就是合法語句，且只有這些是合法語句。
+
 > 通常括弧與有參數的符號會分開講，但我這裡想一起說。
 
 ## 語法糖
@@ -79,17 +81,17 @@ $\lnot P$與$P \implies \bot$在這個系統中是等價的。
 
     這描述了怎麼從已有的東西知道新的東西。
 
-1. $P \implies (Q \implies P)$
+1. (A1) $P \implies (Q \implies P)$
 
     如果$P$是對的，在假設$Q$下，$P$是對的。
     換句話說，確認一個敘述是對的後，不論加什麼假設，這個敘述還是對的。
 
-2. $(P \implies (Q \implies R)) \implies (P \implies Q) \implies (P \implies R)$
+2. (A2) $(P \implies (Q \implies R)) \implies (P \implies Q) \implies (P \implies R)$
 
     在假設$P$是對的情況下，知道$Q \implies R$和$Q$都是對的，則在假設$P$下$R$是對的。
     這可以在做推論時，先將已知的假設丟一旁，做MP運算然後再把假設加回來。
 
-3. $(\lnot P \implies \lnot Q) \implies (Q \implies P)$
+3. (A3) $(\lnot P \implies \lnot Q) \implies (Q \implies P)$
 
     這是針對$\lnot$性質的描述。
 
@@ -97,8 +99,37 @@ $\lnot P$與$P \implies \bot$在這個系統中是等價的。
 
 - $P Q, P \vdash Q$
 1. $P Q P$
-2. $(P Q R) (P Q) P R$
+2. $(P Q R) (P Q) (P R)$
 3. $((P \bot) (Q \bot)) (Q P)$
 
 # 推論
 
+先一些直覺的：
+
+$$
+    P \vdash Q P
+$$
+
+<details>
+    <summary> Proof </summary>
+
+    1. $P$ (已知)
+    2. $P Q P$ (A1)
+    3. $Q P$ (MP, 2, 1)
+
+</details>
+
+$$
+    P Q R, P Q \vdash P R
+$$
+
+<details>
+    <summary> Proof </summary>
+
+    1. $P Q R$ (已知)
+    2. $P Q$ (已知)
+    3. $(P Q R)(P Q)(P R)$ (A3)
+    4. $(P Q)(P R)$ (MP, 3, 1)
+    5. $P R$ (MP, 4, 2)
+
+</details>
