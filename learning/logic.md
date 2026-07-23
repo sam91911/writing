@@ -161,3 +161,17 @@ $$
     6. Q P R (MP, 5, 4)
 
 </details>
+
+$$
+    \vdash P P
+$$
+
+<details>
+    <summary> Proof </summary>
+
+    1. P (P P) P (A1)
+    2. (P P P)(P P) (1)
+    3. P P P (A1)
+    4. P P (MP, 3, 2)
+
+</details>
