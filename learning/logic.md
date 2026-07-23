@@ -112,9 +112,11 @@ $$
 
 <details>
     <summary> Proof </summary>
+
     1. $P$ (已知)
     2. $P Q P$ (A1)
     3. $Q P$ (MP, 2, 1)
+
 </details>
 
 $$
@@ -123,9 +125,11 @@ $$
 
 <details>
     <summary> Proof </summary>
+
     1. $P Q R$ (已知)
     2. $(P Q R)(P Q)(P R)$ (A3)
     3. $(P Q)(P R)$ (MP, 2, 1)
+
 </details>
 
 $$
@@ -134,10 +138,12 @@ $$
 
 <details>
     <summary> Proof </summary>
+
     1. $P Q R$ (已知)
     2. $P Q$ (已知)
     3. $(P Q)(P R)$ (1)
     4. $P R$ (MP, 3, 2)
+
 </details>
 
 $$
@@ -146,10 +152,12 @@ $$
 
 <details>
     <summary> Proof </summary>
+
     1. $P Q R$ (已知)
     2. $(P Q)(P R)$ (1)
     3. $Q (P Q)(P R)$ (2)
     4. $(Q P Q)(Q P R)$ (3)
     5. $Q P Q$ (A1)
     6. $Q P R$ (MP, 5, 4)
+
 </details>
