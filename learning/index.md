@@ -5,4 +5,5 @@
 > 我不保證是對的，看看就好。
 # 目錄
 - [數學](mathIntro.md)
+- [組合子](combinator.md)
 - [邏輯](logic.md)
