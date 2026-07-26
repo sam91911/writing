@@ -9,7 +9,7 @@
 > 還在慢慢寫。
 # 目錄
 ## 故事本體
-- [對話](story/manTalk.md)
+- [對話](story/manTalk_d1.md)
 ## 設定
 - [歷史](settings/history/index.md)
 
