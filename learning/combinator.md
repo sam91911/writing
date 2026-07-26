@@ -151,7 +151,7 @@ SK 是個五循環的複合操作：
 
     <details>
     <summary> expend </summary>
-    
+
         W = λx.λy.xyy
         = λx.S(λy.xy)(λy.y)
         = λx.Sx(SKK)
@@ -161,5 +161,5 @@ SK 是個五循環的複合操作：
         SS(K(SKK))xy
         = Sx(K(SKK)x)y
         = xy(SKKy)
-        = xy
+        = xyy
     </details>
