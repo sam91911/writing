@@ -6,13 +6,22 @@
 
 This is a science fiction story and its world-building.
 
-Set after the end of World War III, humanity establishes a United Government with human rights as its highest guiding principle. As productivity reaches extreme heights, society enters an age of material abundance and immortality. At this point, the United Government launches the "Retrocession Project," beginning to revive people who died in the past.
+Set after the end of World War III, humanity establishes "the Government" with human rights as its highest guiding principle. As productivity reaches extreme heights, society enters an age of material abundance and immortality. At this point, the Government launches the "Retrocession Project," beginning to revive people who died in the past.
 
 > [!WARNING]
-> 本作品純屬虛構，與現實中的任何事件、人物或組織均無關。
-> 還在慢慢寫。
-> This work is entirely fictional and bears no relation to any real events, persons, or organizations.
-> Still being written, slowly.
+> **免責聲明與寫作進度 / Disclaimer & Progress**
+> 
+> 本作品純屬虛構，與現實中的任何事件、人物或組織均無關。目前還在慢慢寫作中。
+> 
+> This work is entirely fictional and bears no relation to any real events, persons, or organizations. Still being written, slowly (Work in Progress).
+
+> [!CAUTION]
+> **年齡分級 / Age Rating**
+> 
+> 本作品建議 **15 歲以上** 讀者閱讀（輔導十五歲級）。
+> 
+> Recommended for ages 15+.
+
 # 目錄 Table of Contents
 ## 故事本體 The Story
 - [對話](story/manTalk_d1.md)
