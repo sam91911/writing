@@ -6,7 +6,7 @@
 
 This is a science fiction story and its world-building.
 
-Set after the end of World War III, humanity establishes "the Government" with human rights as its highest guiding principle. As productivity reaches extreme heights, society enters an age of material abundance and immortality. At this point, the Government launches the "Retrocession Project," beginning to revive people who died in the past.
+Set after the end of World War III, humanity establishes "the Government" with human rights as its highest guiding principle. As productivity reaches extreme heights, society enters an age of material abundance and immortality. At this point, the Government launches the "Resurrection Project," beginning to revive people who died in the past.
 
 > [!WARNING]
 > **免責聲明與寫作進度 / Disclaimer & Progress**
@@ -26,6 +26,4 @@ Set after the end of World War III, humanity establishes "the Government" with h
 ## 故事本體 The Story
 - [對話](story/manTalk_d1.md)
 - [Talk](story/manTalk_d1_en.md)
-## 設定 Worldbuilding
-- [歷史](settings/history/index.md)
 
